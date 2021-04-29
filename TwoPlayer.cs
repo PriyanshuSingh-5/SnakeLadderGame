@@ -13,7 +13,7 @@ namespace SnakeLadderGame
         const int LADDER = 1;
         const int SNAKE = 2;
         const int WINNING_POSITION = 100;
-        public void Play()
+        public static void PlayTwoPlayer()
         {
             int[] player = new int[2] { 0, 0 };
             int dieCount = 0;

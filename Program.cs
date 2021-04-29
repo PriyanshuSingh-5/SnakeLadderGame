@@ -6,7 +6,14 @@ namespace SnakeLadderGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Snake ladder Game");
+            StartPosition.Start();
+            PlayerRollsDie.DieRoll();
+            CheckOption.OptionToPlay();
+            PlayTillWin.PlayToWin();
+            WinningPosition.PositionToWin();
+            DierollCount.TotalDieCount();
+            TwoPlayer.PlayTwoPlayer();
+
         }
     }
 }
